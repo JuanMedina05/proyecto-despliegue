@@ -39,12 +39,12 @@ const App = () => {
           <button onClick={() => callApi('/api/saludo')}>
             Test /api/saludo
           </button>
-          <button onClick={() => callApi('/api/servidor')}>
-            Test /api/servidor
+          <button onClick={() => callApi('/api/despedida')}>
+            Test /api/despedida
           </button>
-          	<button onClick={() => callApi('/api/servidor')}>
-    			Test /api/servidor
-  		</button>
+          <button onClick={() => callApi('/api/servidor')}>
+    		Test /api/servidor
+  	  </button>
         </div>
 
         <div className="output-area">
